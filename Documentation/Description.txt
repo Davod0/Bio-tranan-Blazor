@@ -11,3 +11,13 @@ vill skcika till user och vilka ska skickas till admin page.
 -I klassen CinemaViewingService i metoden AddCinemaViewingAsync(CinemaViewing cv) kontrolleras om 
 en att En film får bara visas ett visst antal gånger och en film ska inte gå att lägga till en filmvisning i schemat
 samma tid som en annan film visas i samma salong.
+
+
+
+
+New JWT saved with ID 'b969997f'.
+Name: user
+Roles: [admin]
+
+
+Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InVzZXIiLCJzdWIiOiJ1c2VyIiwianRpIjoiYjk2OTk5N2YiLCJyb2xlIjoiYWRtaW4iLCJhdWQiOlsiaHR0cDovL2xvY2FsaG9zdDo1NzIxNiIsImh0dHBzOi8vbG9jYWxob3N0OjQ0MzM3IiwiaHR0cDovL2xvY2FsaG9zdDo1MjA0IiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzA3OCJdLCJuYmYiOjE3MTIwODc3MTMsImV4cCI6MTcxOTk1MDExMywiaWF0IjoxNzEyMDg3NzE0LCJpc3MiOiJkb3RuZXQtdXNlci1qd3RzIn0.eiCL1UxSSjLMDTjXMzgAzwIHhWYtGh3hqj80FiKCakU
