@@ -29,10 +29,11 @@ Get http://localhost:5204/movie/16
 ####
 
 Post http://localhost:5204/movie
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InVzZXIiLCJzdWIiOiJ1c2VyIiwianRpIjoiYjk2OTk5N2YiLCJyb2xlIjoiYWRtaW4iLCJhdWQiOlsiaHR0cDovL2xvY2FsaG9zdDo1NzIxNiIsImh0dHBzOi8vbG9jYWxob3N0OjQ0MzM3IiwiaHR0cDovL2xvY2FsaG9zdDo1MjA0IiwiaHR0cHM6Ly9sb2NhbGhvc3Q6NzA3OCJdLCJuYmYiOjE3MTIwODc3MTMsImV4cCI6MTcxOTk1MDExMywiaWF0IjoxNzEyMDg3NzE0LCJpc3MiOiJkb3RuZXQtdXNlci1qd3RzIn0.eiCL1UxSSjLMDTjXMzgAzwIHhWYtGh3hqj80FiKCakU
 Content-Type: application/json
   
 {
-  "Title": "Star Wars",
+  "Title": "Sexy Boy",
   "Description": "War between Humans and Aliens",
   "Genre": "Action",
   "AgeLimit": 15,
@@ -47,7 +48,7 @@ Content-Type: application/json
 
 ####
 
-DELETE http://localhost:5204/movie/18
+DELETE http://localhost:5204/movie/1
 Content-Type: application/json
 
 #### CinemaViewing ______________________________________________________________________________________________

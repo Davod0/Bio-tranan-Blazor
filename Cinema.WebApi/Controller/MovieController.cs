@@ -2,6 +2,7 @@ namespace Cinema.WebApi;
 
 using Microsoft.AspNetCore.Mvc;
 using Cinema.Core;
+using Microsoft.AspNetCore.Authorization;
 
 [ApiController]
 [Route("movie")]
@@ -14,6 +15,7 @@ public class MovieController : ControllerBase
     }
 
     [HttpPost("")]
+    [Authorize]
     public async Task<IActionResult> PostMovieAsync(Movie m)
     {
         if (await _service.AddMovieAsync(m) != null)
